@@ -1,0 +1,11 @@
+[requires]
+boost/1.77.0
+
+[options]
+boost:shared=True
+
+[imports]
+lib, *.so* -> lib
+
+[generators]
+cmake
